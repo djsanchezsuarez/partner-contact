@@ -3,14 +3,12 @@
 
 {
     'name': 'Email Format Checker',
-    'version': '11.0.1.1.0',
+    'version': '12.0.1.0.0',
     'summary': 'Validate email address field',
     'author': "Komit, Odoo Community Association (OCA)",
     'website': 'https://github.com/OCA/partner-contact',
     'category': 'Tools',
     'depends': ['base_setup'],
-    'installable': True,
-    'application': False,
     'license': 'AGPL-3',
     'external_dependencies': {
         'python': ['email_validator']
